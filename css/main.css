@@ -17,65 +17,50 @@ html {
 
 body {
   padding: 0;
-  margin: 1.5rem;
-  background-color: #ccc;
+  margin: 0;
 }
 
 section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
+  background-color: #ccc;
 }
 
 h2 {
   margin: 0;
-  padding: 2rem;
   display: flex;
-  align-items: center;
-}
-
-h3 {
-  font-size: .875rem;
-  margin: 0;
+  justify-content: center;
 }
 
 img {
-  width: 24rem;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  border: 1px solid #333;
-  border-top: 0;
-  border-bottom: 0;
-}
-
-h4 {
-  font-size: 1rem;
-  margin: 0;
-  padding-top: 1.5rem;
+  max-width: 5rem;
+  display: block;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
 li {
   display: flex;
-  padding: 2rem;
   flex-direction: row;
+  align-items: center;
 }
 
 a {
-  font-size: 1.125rem;
   padding: .5rem 1rem .6rem;
   text-decoration: none;
   color: #fff;
   background-color: #444;
   border-color: #444;
+  width: 5rem;
+  display: block;
 }
 
 a:hover {
@@ -89,4 +74,10 @@ hgroup {
 
 p {
   padding: 2rem;
+  margin: 0;
+}
+
+h3,
+h4 {
+  margin: 0;
 }
